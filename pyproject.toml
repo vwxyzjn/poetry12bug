@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry12bug"
+version = "0.1.0"
+description = ""
+authors = ["Costa Huang <costa.huang@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+inner-project = {path = "test/inner_project"}
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
